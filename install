@@ -9,5 +9,7 @@ cd `ls -ltr | tail -1 | tr -s ' ' | cut -d ' ' -f 9`
 pwd
 cd `ls -ltr | tail -1 | tr -s ' ' | cut -d ' ' -f 9`
 pwd
+mv deplyment-archive/apache-tomcat-6.0.43/ /usr/share/tomcat6
 cp -R deployment-archive/* /usr/share/tomcat6/webapps/
 mysql -uroot -proot < /usr/share/tomcat6/webapps/db.sql
+
