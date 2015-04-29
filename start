@@ -1,6 +1,6 @@
 #!/bin/bash
 service httpd start
 service mysqld restart
-cd `/usr/share/tomcat6/bin`
+cd /usr/share/tomcat6/bin/
 ./catalina.sh start
 ./startup.sh
