@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+hooks:
+  BeforeInstall:
+    - location: java
+      timeout: 300
+      runas: root
+    - location: install
+      timeout: 300
+      runas: root
+    - location: start
+      timeout: 300
+      runas: root
